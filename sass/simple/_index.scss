@@ -1,0 +1,12 @@
+body {
+  background: red;
+
+  @include tablette() {
+    background: purple;
+  }
+
+  @include mobile() {
+    background: blue;
+  }
+
+}
